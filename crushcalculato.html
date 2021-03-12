@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tut 1 in js intermediat</title>
+
+</head>
+
+<body>
+    <h1>How much do your crush love you...!!!</h1>
+    <h4>
+        <name id="name"></name>'s crush loves him:</h4>
+    <p id="crush"></p>
+    <script>
+        // var n = Math.random();
+        // n = n * 7;
+        // n = Math.floor(n)
+        // console.log(n)
+
+        let a = prompt("Enter your name");
+        document.getElementById("name").innerText = a;
+        prompt("Enter name of your crush");
+        let n = Math.random() * 100;
+        document.getElementById("crush").innerHTML = n;
+        // alert(n);
+    </script>
+</body>
+
+</html>
